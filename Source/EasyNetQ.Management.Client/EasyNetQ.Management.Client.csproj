@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard1.5;net452</TargetFrameworks>
+    <TargetFrameworks>net452</TargetFrameworks>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <OutputType>Library</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -27,6 +27,9 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>RabbitMQ Management.API .NET C# netstandard</PackageTags>
     <PackageReleaseNotes>https://github.com/EasyNetQ/EasyNetQ.Management.Client/blob/master/version.txt</PackageReleaseNotes>
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)'=='net452'">
