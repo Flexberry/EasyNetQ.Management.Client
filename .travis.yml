@@ -1,2 +1,2 @@
 language: csharp
-solution: EasyNetQ.sln
+solution: Source/EasyNetQ.sln
