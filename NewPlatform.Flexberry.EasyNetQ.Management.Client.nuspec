@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NewPlatform.Flexberry.EasyNetQ.Management.Client</id>
+    <version>1.0.0</version>
+    <title>Flexberry fork EasyNetQ.Management.Client</title>
+    <authors>New Platform Ltd, Mike Hadlow</authors>
+    <owners>New Platform Ltd</owners>
+    <licenseUrl>https://github.com/EasyNetQ/EasyNetQ.Management.Client/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/Flexberry/EasyNetQ.Management.Client</projectUrl>
+    <iconUrl>https://flexberry.net/img/logo-color.png</iconUrl>
+	<description>A .NET client for the RabbitMQ RESTful management API</description>
+	<releaseNotes>
+      1. Sign an assembly.
+    </releaseNotes>
+    <copyright>Copyright © Mike Hadlow 2011 - present</copyright>
+    <tags>Flexberry</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="JetBrains.Annotations" version="11.1.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
+      </group>
+	</dependencies>
+	<frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="EasyNetQ.Management.Client.dll" target="lib\net452\EasyNetQ.Management.Client.dll" />
+    <file src="EasyNetQ.Management.Client.XML" target="lib\net452\EasyNetQ.Management.Client.XML" />
+  </files>
+</package>

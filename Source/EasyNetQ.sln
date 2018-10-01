@@ -12,9 +12,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{A69046CF-3E37-4C7D-B19A-DD79C2938556}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\.travis.yml = ..\.travis.yml
 		..\Tools\build\build.cake = ..\Tools\build\build.cake
 		..\Tools\build\build.ps1 = ..\Tools\build\build.ps1
 		..\license.txt = ..\license.txt
+		..\NewPlatform.Flexberry.EasyNetQ.Management.Client.nuspec = ..\NewPlatform.Flexberry.EasyNetQ.Management.Client.nuspec
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
