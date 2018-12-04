@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>NewPlatform.Flexberry.EasyNetQ.Management.Client</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Flexberry fork EasyNetQ.Management.Client</title>
     <authors>New Platform Ltd, Mike Hadlow</authors>
     <owners>New Platform Ltd</owners>
@@ -12,7 +12,7 @@
     <iconUrl>https://flexberry.net/img/logo-color.png</iconUrl>
 	<description>A .NET client for the RabbitMQ RESTful management API</description>
 	<releaseNotes>
-      1. Sign an assembly.
+      1. Fixed Ack in message stats
     </releaseNotes>
     <copyright>Copyright © Mike Hadlow 2011 - present</copyright>
     <tags>Flexberry</tags>
