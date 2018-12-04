@@ -26,5 +26,7 @@ namespace EasyNetQ.Management.Client.Model
         public MessageRateDetails DeliverDetails { get; set; }
         public Int64 Confirm { get; set; }
         public MessageRateDetails ConfirmDetails { get; set; }
+        public Int64 Ack { get; set; }
+        public MessageRateDetails AckDetails { get; set; }
     }
 }
